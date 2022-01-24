@@ -10,7 +10,7 @@
 | ${APPLICATION}     | python3 ../employee.py
 
 | *** Test Cases ***
-| Add Employee ${first_name} ${last_name}
+| Add Employee Template ${first_name} ${last_name}
 
 | *** Keywords ***              |
 | Add Employee Template         | [Documentation] | Template for verifying adding an employee
